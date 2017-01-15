@@ -21,6 +21,15 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color:white;
+    &:hover {
+        color:white;
+        opacity:.6;
+    }
+}
+
+
 .navbar, .home-callout {
    border:none; 
 
