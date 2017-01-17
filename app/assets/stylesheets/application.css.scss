@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 .navbar-brand{
     font-family:'Open Sans', sans serif;
-    font-weight: 80%;
+    font-weight: 800;
 }
 .navbar, .home-callout {
    border:none; 
@@ -43,9 +43,26 @@ h1, h2, h3 {
     background: linear-gradient(to left, #C02425 , #F0CB35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+// HAMBURGER NAV ADJUSTMENTS
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+.navbar-default .navbar-toggle{
+  border:2px solid white;
+  &:hover, &:focus {
+      background-color:#F0CB35;
+  }
+}
+
+
 .home-callout {
     margin-top:-20px;
     padding-top: 50px;
     padding-bottom:100px;
     color:white;
 }
+
+
+
+
