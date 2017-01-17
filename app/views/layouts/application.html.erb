@@ -21,12 +21,22 @@
               <span class="icon-bar"></span>
             </button>
             
-            
-                  <a href="/" class="navbar-brand"><i class="fa fa-angellist"></i> DevMatch</a>
+                <!-- LEFT NAV -->
+                  <a href="/" class="navbar-brand">
+                    <i class="fa fa-angellist"> DevMatch</i></a>
+                    <%= link_to "/", class: "navbar-brand" do %>
+                      <i class= 'fa fa-angellist'></i>
+                      DevMatch
+                    
+                    <% end %>
           </div>
+                 <!-- RIGHT NAV -->
                   <div class="collapse navbar-collapse" id="main-nav-collapse">
                     <ul class="nav navbar-nav navbar-right">
+                      
                       <li><a href="/about">About</a></li>
+                      <li> <%= link_to 'About', "/about" %></li>
+                      
                       <li><a href="#">Page1</a></li>
                       <li><a href="#">Page1</a></li>
                     </ul>
