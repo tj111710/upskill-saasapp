@@ -10,7 +10,7 @@ class ContactsController < ApplicationController
           #MAILER
           name = params[:contact][:name]
           email = params[:contact][:email]
-          body = params[:contacts][:comments]
+          body = params[:contact][:comments]
           ContactMailer.contact_email(name, email, body).deliver
           
           #REDIRECT SUCCESS
