@@ -38,6 +38,10 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'hirb', '0.7.3'
 #Use DEVISE for user authentication
 gem 'devise', '4.2.0'
+# Use STRIPE for payment processing
+gem 'stripe', '1.48.0'
+# Use FIGARO for ENV variables
+gem 'figaro', '1.1.1'
 
 
 
